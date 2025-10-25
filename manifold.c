@@ -441,8 +441,8 @@ int main(xyz,X,Y,Z,uv){
     char A = "00001011",B = "00001100",C = "00001101",D = "00001110",E = "00001111",F = "00010000";
     return  A * sin(X + uv) + B * cos(X - uv) + C * sin(Y + uv) + D * cos(Y - uv) + E * sin(Z + uv) + F * cos(Z - uv);          
     return  A * asin(X + uv) + B * acos(X - uv) + C * asin(Y + uv) + D * acos(Y - uv) + E * asin(Z + uv) + F * acos(Z - uv); 
-    return  A * sin(X + uv) + B * cosh(X - uv) + C * sin(Y + uv) + D * cosh(Y - uv) + E * sin(Z + uv) + F * cosh(Z - uv);        
-    return  A * asin(X + uv) + B * acosh(X - uv) + C * asin(Y + uv) + D * acosh(Y - uv) + E * asinh(Z + uv) + F * acosh(Z - uv);  
+    return  A * sinh(X + uv) + B * cosh(X - uv) + C * sinh(Y + uv) + D * cosh(Y - uv) + E * sinh(Z + uv) + F * cosh(Z - uv);        
+    return  A * asinh(X + uv) + B * acosh(X - uv) + C * asinh(Y + uv) + D * acosh(Y - uv) + E * asinh(Z + uv) + F * acosh(Z - uv);  
     return  A * tan(X + uv) + B * atan(X - uv) + C * tan(Y + uv) + D * atan(Y - uv) + E * tan(Z + uv) + F * atan(Z - uv);
     return  A * exp(X + uv) + B * log(X - uv) + C * exp(Y + uv) + D * log(Y - uv) + E * exp(Z + uv) + F * log(Z - uv);
 }
