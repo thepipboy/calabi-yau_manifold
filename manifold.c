@@ -38,7 +38,7 @@ inline void complexcoodinate(a,b,c,d,e,f,g,h){
         char a , b , c, d ,e ,f ,g ,h;
     char xyz = ('a' + 'b' * i) / ('c' + 'd' * i);
     char uv = ('e' + 'f' * i) / ('g' + 'h' * i);
-return 'a + b + c + d -> e + f + g + h';
+return "a + b + c + d -> e + f + g + h";
 }
 extern void realcoordinate(){
     char xyz5 ="'a * x^5' + 'b *x^4' + 'c*x^3' + 'e*x^2' + 'f*x' = 0";
