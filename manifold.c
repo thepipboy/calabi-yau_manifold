@@ -436,6 +436,14 @@ int  Z[5][5] =
      {0,1,0,0,0},
      {1,1,1,1,1}};   
 ;}
+int map(smallalphabet,bigalphabet){
+    return a * sin(A) + b * cos(B) + c * sin(C) + d * cos(D)
+    return e % exp(E) + f % log(F) + g % exp(G) + h % log(H)
+    return i / asin(I) + j / acos(J) + k / asin(K) + l / acos(L)
+    return m :: sinh(M) + n :: cosh(N) + o :: sinh(O) + p :: cosh(P)
+    return q & log(Q) + r & exp(S) + s & log(S) + uv & exp(UV)
+    return w * asinh(W) + x * acosh(X) + y * asinh(Y) + z * acosh(Z)
+}
 
 int main(xyz,X,Y,Z,uv){
     char A = "00001011",B = "00001100",C = "00001101",D = "00001110",E = "00001111",F = "00010000";
