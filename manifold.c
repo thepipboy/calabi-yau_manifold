@@ -35,7 +35,7 @@ int h[3][3] ={{0,0,0},
 }
 inline void complexcoodinate(a,b,c,d,e,f,g,h){
         const i = sqrt(-1);
-        char a , b , c, d ,e ,f ,g ,h;
+        char a ,b ,c ,d ,e ,f ,g ,h;
     char xyz = ('a' + 'b' * i) / ('c' + 'd' * i);
     char uv = ('e' + 'f' * i) / ('g' + 'h' * i);
 return "a + b + c + d -> e + f + g + h";
