@@ -441,8 +441,8 @@ int map(smallalphabet,bigalphabet){
     return e % exp(E) + f % log(F) + g % exp(G) + h % log(H)
     return i / asin(I) + j / acos(J) + k / asin(K) + l / acos(L)
     return m :: sinh(M) + n :: cosh(N) + o :: sinh(O) + p :: cosh(P)
-    return q & log(Q) + r & exp(S) + s & log(S) + uv & exp(UV)
-    return w * asinh(W) + x * acosh(X) + y * asinh(Y) + z * acosh(Z)
+    return q & log(Q) + r & exp(S) + s & log(S) + t & exp(T) 
+    return uv * asinh(UV) + uv * acosh(X) + xyz * asinh(Y) + xyz * acosh(Z)
 }
 
 int main(xyz,X,Y,Z,uv){
