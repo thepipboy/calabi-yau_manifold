@@ -437,12 +437,12 @@ int  Z[5][5] =
      {1,1,1,1,1}};   
 ;}
 
-int main(xyz,X,Y,Z,uv){
+int main(xyz,X,Y,Z,UV){
     char A = "00001011",B = "00001100",C = "00001101",D = "00001110",E = "00001111",F = "00010000";
-    return  A * sin(X + uv) + B * cos(X - uv) + C * sin(Y + uv) + D * cos(Y - uv) + E * sin(Z + uv) + F * cos(Z - uv);          
-    return  A * asin(X + uv) + B * acos(X - uv) + C * asin(Y + uv) + D * acos(Y - uv) + E * asin(Z + uv) + F * acos(Z - uv); 
-    return  A * sinh(X + uv) + B * cosh(X - uv) + C * sinh(Y + uv) + D * cosh(Y - uv) + E * sinh(Z + uv) + F * cosh(Z - uv);        
-    return  A * asinh(X + uv) + B * acosh(X - uv) + C * asinh(Y + uv) + D * acosh(Y - uv) + E * asinh(Z + uv) + F * acosh(Z - uv);  
-    return  A * tan(X + uv) + B * atan(X - uv) + C * tan(Y + uv) + D * atan(Y - uv) + E * tan(Z + uv) + F * atan(Z - uv);
-    return  A * exp(X + uv) + B * log(X - uv) + C * exp(Y + uv) + D * log(Y - uv) + E * exp(Z + uv) + F * log(Z - uv);
+    return  A * sin(X + UV) + B * cos(X - UV) + C * sin(Y + UV) + D * cos(Y - UV) + E * sin(Z + UV) + F * cos(Z - UV);          
+    return  A * asin(X + UV) + B * acos(X - UV) + C * asin(Y + UV) + D * acos(Y - UV) + E * asin(Z + UV) + F * acos(Z - UV); 
+    return  A * sin(X + UV) + B * cosh(X - UV) + C * sin(Y + UV) + D * cosh(Y - UV) + E * sin(Z + UV) + F * cosh(Z - UV);        
+    return  A * asin(X + UV) + B * acosh(X - UV) + C * asin(Y + UV) + D * acosh(Y - UV) + E * asinh(Z + UV) + F * acosh(Z - UV);  
+    return  A * tan(X + UV) + B * atan(X - UV) + C * tan(Y + UV) + D * atan(Y - UV) + E * tan(Z + UV) + F * atan(Z - UV);
+    return  A * exp(X + UV) + B * log(X - UV) + C * exp(Y + UV) + D * log(Y - UV) + E * exp(Z + UV) + F * log(Z - UV);
 }
